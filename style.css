@@ -1,0 +1,81 @@
+h1{
+    color:aliceblue;
+    margin-left: 200px
+
+}   
+/* *{
+    border:solid
+}
+*/
+
+.header *{
+   border: solid 
+}
+.menu a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+.header{
+    background-color:darkslategray ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu{
+    background-color:aliceblue;
+    margin-right: 30px
+}
+.grid{
+    background-color:darkslategray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: warp;
+}
+.footer{
+    background-color:lightslategrey;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+p,h2{
+    text-align: center;
+    background-color: gray;
+    color: whitesmoke
+
+
+}
+body{
+    background-color: gray
+}
+
+
+a:link{
+    color: whitesmoke
+}
+a:visited{
+    color:black
+}
+
+.item{
+    position:relative
+
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+
+}
+
+.item:hover p{
+    opacity:1
+}
+.item:hover img{
+    opacity:0.33;
+}
